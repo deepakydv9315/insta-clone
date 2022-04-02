@@ -1,1 +1,88 @@
-css code here
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* utility class  */
+.flex-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    padding: 15px 70px;
+    width: 100%;
+}
+
+/* section */
+.sec{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.sec-active{
+    display: flex;
+}
+#home{
+    background-color: yellow;
+}
+#search{
+    background-color: blue;
+}
+#reel{
+    background-color: pink;
+}
+#notify{
+    background-color: skyblue;
+}
+#profile{
+    background-color: green;
+}
+
+/* * footer sectin  */
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #ffffff;
+    justify-content: space-between !important;
+}
+
+footer>div {
+    background-color: #eee;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+
+}
+
+footer > div.active{
+    background-color: blue;
+}
