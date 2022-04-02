@@ -1,1 +1,1 @@
-# animated-login
+# Simple instagram clone
