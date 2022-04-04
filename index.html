@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,14 +14,58 @@
 
     <title>Document</title>
 </head>
+
 <body>
     <!-- All sections -->
 
     <!-- home section starts here -->
-    <section id="home" class="flex-r sec conatiner sec-active">
-        <h1 class="lg-head">Home</h1>
+    <section id="home" class="flex-c sec container sec-active">
+        <header class="flex-r">
+            <div class="logo">instagram</div>
+            <div class="flex-r header-link">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-comment-dots"></i>
+            </div>
+        </header>
+        <div class="flex-r story-wrapper">
+            <div class="story my-story">
+                <!-- position icon to my story  -->
+                <span class="flex-r add-story">
+                    <i class="fa-solid fa-plus"></i>
+                </span>
+            </div>
+
+            <div class="story"></div>
+            <div class="story"></div>
+            <div class="story"></div>
+            <div class="story"></div>
+            <div class="story"></div>
+            <div class="story"></div>
+        </div>
+
+        <div class="post-wrapper">
+            <div class="flex-r post-account-info">
+                <span class="account-pic"></span>
+                <div class="flex-c account-name">
+                    <span>deepakydv_470</span>
+                    <span>Delhi</span>
+                </div>
+            </div>
+            <div class="post"></div>
+        </div>
+        <div class="post-wrapper">
+            <div class="flex-r post-account-info">
+                <span class="account-pic"></span>
+                <div class="flex-c account-name">
+                    <span>deepakydv_470</span>
+                    <span>Delhi</span>
+                </div>
+            </div>
+            <div class="post"></div>
+        </div>
+
     </section>
-    
+
     <!-- search section starts here  -->
     <section id="search" class="flex-r sec container">
         <h1 class="lg-head">Search</h1>
@@ -42,14 +87,26 @@
     </section>
 
     <footer class="container flex-r">
-        <div class="home-btn active"></div>
-        <div class="search-btn"></div>
-        <div class="reel-btn"></div>
-        <div class="notify-btn"></div>
-        <div class="profile-btn"></div>
+        <div class="flex-r home-btn active">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="flex-r search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="flex-r reel-btn">
+            <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="flex-r notify-btn">
+            <i class="fa-solid fa-bell"></i>
+        </div>
+        <div class="flex-r profile-btn">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
     </footer>
 
     <!-- link js -->
     <script src="./app.js"></script>
 </body>
+
 </html>
